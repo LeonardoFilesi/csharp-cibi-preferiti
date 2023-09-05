@@ -6,9 +6,12 @@ Console.WriteLine("Ciao, sono una persona molto indecisa, infatti il mio cibo pr
 
 Console.WriteLine("Ma riguardo il cibo???");
 
-string[] favFood = {"Pizza", "Carbonara", "Tiramisù", "Sushi", "Parmigiana", "Lasagna", "Pallotte Cacio e Ova" };
+string[] favFood = {"Pizza", "Carbonara", "Tiramisù", "Parmigiana", "Lasagna", "Pallotte Cacio e Ova", "Sushi" };
 
 int foodQuantity = favFood.Length;
+
+var firstFavFood = favFood[0];
+var leastFavFood = favFood[6];
 
 Console.WriteLine("Il mio cibo preferito");
  foreach (string food in favFood)
@@ -16,4 +19,8 @@ Console.WriteLine("Il mio cibo preferito");
     Console.WriteLine(food);
 }
 
- Console.WriteLine("mi piace veramente tanto cibo, per l'appunto mi piacciono ben" +  foodQuantity + "cibi diversi");
+Console.WriteLine("mi piace veramente tanto cibo, per l'appunto mi piacciono ben" +  foodQuantity + "cibi diversi");
+
+Console.WriteLine("Ma per quanto tanto cibo mi piaccia, il mio più preferito di tutti più più, è" +  firstFavFood);
+
+Console.WriteLine("Anche se tutti i miei cibi preferiti sono eccezionali, quello che, pur facendomi impazzire, gradisco meno è il" +  leastFavFood + "il cibo italiano è sempre meglio");
