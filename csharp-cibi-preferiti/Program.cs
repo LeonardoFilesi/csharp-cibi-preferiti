@@ -1,2 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+var colorName = "Blallo";
+
+Console.WriteLine("Ciao, sono una persona molto indecisa, infatti il mio colore preferito è il", colorName, );
