@@ -13,7 +13,7 @@ int foodQuantity = favFood.Length;
 var firstFavFood = favFood[0];
 var leastFavFood = favFood[6];
 
-Console.WriteLine("Il mio cibo preferito");
+Console.WriteLine("Ecco il mio cibo preferito:");
  foreach (string food in favFood)
 {
     Console.WriteLine(food);
@@ -23,4 +23,15 @@ Console.WriteLine("mi piace veramente tanto cibo, per l'appunto mi piacciono ben
 
 Console.WriteLine("Ma per quanto tanto cibo mi piaccia, il mio più preferito di tutti più più, è" +  firstFavFood);
 
-Console.WriteLine("Anche se tutti i miei cibi preferiti sono eccezionali, quello che, pur facendomi impazzire, gradisco meno è il" +  leastFavFood + "il cibo italiano è sempre meglio");
+Console.WriteLine("Anche se tutti i miei cibi preferiti sono eccezionali, quello che, pur facendomi impazzire, gradisco meno è il" + leastFavFood + "il cibo italiano è sempre meglio");
+
+if(favFood.Length%2 == 1)
+{
+    int middleFood = favFood.Length/2;
+    Console.WriteLine("A metà della mia classifica di cibo c'è" + middleFood)
+}
+else
+{
+    int middleFood1 = favFood.Length/2;
+    int middleFood2 = middleFood1 + 1;
+}
