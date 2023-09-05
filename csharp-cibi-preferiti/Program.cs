@@ -28,7 +28,7 @@ Console.WriteLine("Anche se tutti i miei cibi preferiti sono eccezionali, quello
 if(favFood.Length%2 == 1)
 {
     int middleFood = favFood.Length/2;
-    Console.WriteLine("A metà della mia classifica di cibo c'è" + middleFood)
+    Console.WriteLine("A metà della mia classifica di cibo c'è" + middleFood);
 }
 else
 {
