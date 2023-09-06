@@ -37,3 +37,5 @@ else
 
     Console.WriteLine("A metà della mia classifica di cibo ci sono" + middleFood1 + "e" + middleFood2);
 }
+
+Console.WriteLine("FINE!!!");
