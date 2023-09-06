@@ -28,14 +28,14 @@ Console.WriteLine("Anche se tutti i miei cibi preferiti sono eccezionali, quello
 if(favFood.Length%2 == 1)
 {
     int middleFood = favFood.Length/2;
-    Console.WriteLine("A metà della mia classifica di cibo c'è" + middleFood);
+    Console.WriteLine("A metà della mia classifica di cibo c'è" + favFood[middleFood]);
 }
 else
 {
     int middleFood1 = favFood.Length/2;
     int middleFood2 = middleFood1 + 1;
 
-    Console.WriteLine("A metà della mia classifica di cibo ci sono" + middleFood1 + "e" + middleFood2);
+    Console.WriteLine("A metà della mia classifica di cibo ci sono" + favFood[middleFood1] + "e" + favFood[middleFood2]);
 }
 
 Console.WriteLine("FINE!!!");
